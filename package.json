@@ -17,7 +17,9 @@
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.5.0",
+    "@tailwindcss/vite": "^4.1.8",
     "hono": "^4.7.11",
+    "tailwindcss": "^4.1.8",
     "vite-plugin-pwa": "^0.21.1"
   }
 }

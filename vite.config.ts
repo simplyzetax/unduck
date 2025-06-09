@@ -1,4 +1,5 @@
 import { cloudflare } from "@cloudflare/vite-plugin";
+import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
 
@@ -7,7 +8,8 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
     }),
-    cloudflare()
+    cloudflare(),
+    tailwindcss()
   ],
   build: {
     outDir: "public",
